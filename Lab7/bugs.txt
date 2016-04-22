@@ -1,0 +1,7 @@
+1. For an empty list, the size is 1 when it should be 0. Every call of size() is accordingly 1 too big.
+
+2. addBack() actually adds to the back a copy of the value at the front, instead of the value passed in.
+
+3. removeFront() actually performs what removeBack() should do. ( removeBack() functions as it should )
+
+4. I can't get isEmpty() to return true. I suspect it might only be capable of returning false.
